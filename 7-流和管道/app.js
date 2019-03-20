@@ -9,7 +9,7 @@ var myWriteStream=fs.createWriteStream(__dirname+'/writeme.txt',{'flags':'a'});
 // });
 // myReadStream.pipe(myWriteStream);
 // var data='';
-// myReadStream.setEncoding('utf-8');
+myReadStream.setEncoding('utf-8');
 myReadStream.on('data',function(chunk){
     // console.log('new chunk received');
     console.log(chunk);

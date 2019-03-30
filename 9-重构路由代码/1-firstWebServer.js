@@ -1,8 +1,8 @@
 var http=require('http');
 http.createServer((req,res)=>{
     res.writeHead(200,{'Content-Type':'text/plain;charset=utf-8'});
-    res.end('Hi ,my name is Tommy');
+    res.end('你好，中国');
     res.on('finish',function(){
-        console.log('finished');
+        console.log('It has finished');
     });
-}).listen(8002);
+}).listen(8888);

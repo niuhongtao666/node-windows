@@ -5,9 +5,14 @@ function index(res){
 };
 function api(res,params){
     res.writeHead(200,{'Content-Type':'application/json'});
-    res.end(JSON.stringify(params))
+    /*var obj={
+        age:12,
+        name:"王jie",
+    };*/
+    console.log(params);
+    res.end(JSON.stringify(params));
 };
 module.exports={
     index,
-    api
+    api,
 };

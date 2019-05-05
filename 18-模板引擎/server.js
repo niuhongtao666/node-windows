@@ -8,8 +8,18 @@ app.set('view engine','ejs');
 app.get('/form',(req,res)=>{
     // var file=fs.readFileSync(__dirname+'/form.html','utf-8');
     // res.send(file);
-    var person=req.query.person;
-    res.render('form',{person:person});
+    var data={age:18,jobs:['teacher','actor','policeman']};
+    // var person=req.query.person;
+    // res.render('form',{person:person});
+    res.render('form',{data:data});
+});
+app.get('/about',(req,res)=>{
+    // var file=fs.readFileSync(__dirname+'/form.html','utf-8');
+    // res.send(file);
+    // var data={age:18,jobs:['teacher','actor','policeman']};
+    // var person=req.query.person;
+    // res.render('form',{person:person});
+    res.render('about');
 });
 app.post('/json',jsonType,(req,res)=>{
     console.dir(req.body);

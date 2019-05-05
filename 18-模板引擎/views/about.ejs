@@ -8,14 +8,5 @@
 </head>
 <body>
     <%- include('./partials/header.ejs') -%>
-    <h2>
-        Hi,my name is <%= data.age %>
-    </h2>
-    <h2>there are some jobs</h2>
-    <ul>
-        <%data.jobs.forEach((item)=>{%>
-            <li><%=item%></li>
-        <%})%>
-    </ul>
 </body>
 </html>

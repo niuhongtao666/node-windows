@@ -3,7 +3,7 @@ var app=express();
 var indexRouter=require('./routes/index');
 var usersRouter=require('./routes/users');
 var jobsRouter=require('./routes/jobs');
-// app.use('/assets',express.static('public'));
+app.use('/assets',express.static('public'));
 // app.use((req,res,next)=>{
 //     console.log('first middleware');
 //     next();

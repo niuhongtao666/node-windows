@@ -10,6 +10,7 @@ $(document).ready(function() {
             url: '/todo',
             data: todo,
             success: function(data) {
+                console.log('哈哈哈'+data);
                 //do something with the data via front-end framework
                 location.reload();
             }

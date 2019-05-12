@@ -1,7 +1,8 @@
 // var data=[{item:'walking dogs'},{item:'playing with cats'},{item:'writing dinaries'}];
 var bodyparser=require('body-parser');
 var mongoose=require('mongoose');
-mongoose.connect('mongodb://root:rootpwd@localhost/test?authSource=admin',{useNewUrlParser:true});
+mongoose.connect('mongodb://localhost/admin',{useNewUrlParser:true});
+// mongoose.connect('mongodb://localhost');
 var todoSchema=new mongoose.Schema({
     item:String
 })

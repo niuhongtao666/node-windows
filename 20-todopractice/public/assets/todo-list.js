@@ -21,7 +21,8 @@ $(document).ready(function() {
     });
 
     $('li').on('click', function() {
-        var item = $(this).text().trim().replace(/ /g, "-");
+        // var item = $(this).text().trim().replace(/ /g, "-");
+        var item = $(this).text().trim();
         $.ajax({
             type: 'DELETE',
             url: '/todo/' + item,

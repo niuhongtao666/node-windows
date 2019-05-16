@@ -31,7 +31,7 @@ module.exports=function(app){
     });
     app.delete('/todo/:item',(req,res)=>{
         // data=data.filter(every=>every.item.replace(/ /g,'-')!==req.params.item);
-        Todo.find({item:req.params.item.replace(/-/g,' ')}).remove((err,data)=>{
+        Todo.find({item:req.params.item.replace(/-/g,' ')}).remove(function(err,data){
             if(err) throw err;
             console.log(data);
             res.json(data);                

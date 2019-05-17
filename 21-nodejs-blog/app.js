@@ -7,6 +7,7 @@ let Article=require('./models/article.js')
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','pug');
 app.use(bodyParser.urlencoded({extended:false}));
+app.use(express.static(path.join(__dirname,'public')));
 mongoose.connect('mongodb://localhost/nodejs-blog',{useNewUrlParser:true});
 let db=mongoose.connection;
 db.once('open',function(){

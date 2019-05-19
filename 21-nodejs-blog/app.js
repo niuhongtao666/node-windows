@@ -3,7 +3,7 @@ const path=require('path');
 const mongoose=require('mongoose');
 const app=express();
 const bodyParser=require('body-parser');
-let Article=require('./models/article.js')
+let Article=require('./models/article.js');
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','pug');
 app.use(bodyParser.urlencoded({extended:false}));
@@ -30,9 +30,30 @@ app.get('/',(req,res)=>{
 app.get('/articles/new',(req,res)=>{
     res.render('new',{title:'Add article'});
 });
+app.get('/article/:id',(req,res)=>{
+    Article.findById(req.params.id,(err,article)=>{
+        res.render('show',{article:article});
+    });
+});
+app.get('/article/:id/edit',(req,res)=>{
+    Article.findById(req.params.id,(err,article)=>{
+        res.render('edit',
+        {
+            article:article,
+            title:'Edit Article'
+        });
+    });
+});
 app.post('/articles/create',(req,res)=>{
     let articles=new Article(req.body);
     articles.save((err,data)=>{
+        if(err) throw err;
+        res.redirect('/');
+    })
+});
+app.post('/articles/update/:id',(req,res)=>{
+    let query={_id:req.params.id};
+    Article.update(query,req.body,(err,data)=>{
         if(err) throw err;
         res.redirect('/');
     })

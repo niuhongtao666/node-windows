@@ -30,7 +30,7 @@ app.get('/',(req,res)=>{
 app.get('/articles/new',(req,res)=>{
     res.render('new',{title:'Add article'});
 });
-app.get('/article/:id',(req,res)=>{
+app.get('/article1/:id',(req,res)=>{
     Article.findById(req.params.id,(err,article)=>{
         res.render('show',{article:article});
     });
@@ -57,6 +57,13 @@ app.post('/articles/update/:id',(req,res)=>{
         if(err) throw err;
         res.redirect('/');
     })
+});
+app.delete('/article/delete/:id',(req,res)=>{
+    let query={_id:req.params.id};
+    Article.deleteOne(query,(err)=>{
+        if(err) throw err;
+    });
+    res.send('success');
 });
 app.listen(5000,()=>{
     console.log('服务启动');

@@ -3,5 +3,7 @@ block content
     h1 #{article.title}
     h5 writed by #{article.author}
     p=article.body
+    p=article.id
     hr
-    a.btn.btn-primary(href='/article/'+article.id+'/edit') Edit
+    a.btn.btn-primary.mr-2(href='/article/'+article.id+'/edit') Edit
+    a.btn.btn-danger.delete-article(href='#',data-id=article.id) Delete

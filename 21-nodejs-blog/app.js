@@ -4,6 +4,7 @@ const mongoose=require('mongoose');
 const app=express();
 const bodyParser=require('body-parser');
 let Article=require('./models/article.js');
+const session=require('express-session');
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','pug');
 app.use(bodyParser.urlencoded({extended:false}));
@@ -15,6 +16,16 @@ db.once('open',function(){
 });
 db.on('error',function(err){
     if(err) throw err;
+});
+app.use(session({
+    secret:'creazy cat',
+    resave: false,
+    saveUninitialized: true,
+}));
+app.use(require('connect-flash')());
+app.use(function (req, res, next) {
+  res.locals.messages = require('express-messages')(req, res);
+  next();
 });
 app.get('/',(req,res)=>{
     // let articles=[
@@ -48,6 +59,7 @@ app.post('/articles/create',(req,res)=>{
     let articles=new Article(req.body);
     articles.save((err,data)=>{
         if(err) throw err;
+        req.flash("success", "Artticle Add");
         res.redirect('/');
     })
 });
@@ -55,6 +67,7 @@ app.post('/articles/update/:id',(req,res)=>{
     let query={_id:req.params.id};
     Article.update(query,req.body,(err,data)=>{
         if(err) throw err;
+        req.flash("success", "Artticle Update");
         res.redirect('/');
     })
 });

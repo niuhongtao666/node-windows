@@ -21,6 +21,9 @@ html(lang="en")
         form.form-inline.my-2.my-md-0
           input.form-control(type='text', placeholder='Search')
     .container
+      if errors
+        each error in errors
+          div(class='alert alert-danger') #{error.msg}
       != messages('message', locals)
       block content
       br

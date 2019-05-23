@@ -3,6 +3,7 @@ const path=require('path');
 const mongoose=require('mongoose');
 const app=express();
 const bodyParser=require('body-parser');
+const { check, validationResult } = require('express-validator/check');
 let Article=require('./models/article.js');
 const session=require('express-session');
 app.set('views',path.join(__dirname,'views'));
@@ -55,13 +56,24 @@ app.get('/article/:id/edit',(req,res)=>{
         });
     });
 });
-app.post('/articles/create',(req,res)=>{
-    let articles=new Article(req.body);
-    articles.save((err,data)=>{
-        if(err) throw err;
-        req.flash("success", "Artticle Add");
-        res.redirect('/');
-    })
+app.post('/articles/create',[
+    check('title').isLength({min:1}).withMessage('Title is required'),
+    check('author').isLength({min:1}).withMessage('Author is required'),
+    check('body').isLength({min:1}).withMessage('Body is required'),
+],(req,res)=>{
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        // return res.status(422).json({ errors: errors.array() });
+        console.log(errors.array());
+        res.render('new',{errors:errors.array(),title:'Add article'});
+    }else{
+        let articles=new Article(req.body);
+        articles.save((err,data)=>{
+            if(err) throw err;
+            req.flash("success", "Artticle Add");
+            res.redirect('/');
+        })
+    }
 });
 app.post('/articles/update/:id',(req,res)=>{
     let query={_id:req.params.id};

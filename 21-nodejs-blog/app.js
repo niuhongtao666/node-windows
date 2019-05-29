@@ -29,67 +29,13 @@ app.use(function (req, res, next) {
   next();
 });
 app.get('/',(req,res)=>{
-    // let articles=[
-    //     {id:1,title:'title1',author:'niu1'},
-    //     {id:2,title:'title2',author:'niu2'},
-    //     {id:3,title:'title3',author:'niu3'},
-    // ];
     Article.find({},(err,articles)=>{
         if(err) throw err;
-        res.render('index',{articles:articles});
+        res.render('articles/index',{articles:articles});
     })
 });
-app.get('/articles/new',(req,res)=>{
-    res.render('new',{title:'Add article'});
-});
-app.get('/article1/:id',(req,res)=>{
-    Article.findById(req.params.id,(err,article)=>{
-        res.render('show',{article:article});
-    });
-});
-app.get('/article/:id/edit',(req,res)=>{
-    Article.findById(req.params.id,(err,article)=>{
-        res.render('edit',
-        {
-            article:article,
-            title:'Edit Article'
-        });
-    });
-});
-app.post('/articles/create',[
-    check('title').isLength({min:1}).withMessage('Title is required'),
-    check('author').isLength({min:1}).withMessage('Author is required'),
-    check('body').isLength({min:1}).withMessage('Body is required'),
-],(req,res)=>{
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        // return res.status(422).json({ errors: errors.array() });
-        console.log(errors.array());
-        res.render('new',{errors:errors.array(),title:'Add article'});
-    }else{
-        let articles=new Article(req.body);
-        articles.save((err,data)=>{
-            if(err) throw err;
-            req.flash("success", "Artticle Add");
-            res.redirect('/');
-        })
-    }
-});
-app.post('/articles/update/:id',(req,res)=>{
-    let query={_id:req.params.id};
-    Article.update(query,req.body,(err,data)=>{
-        if(err) throw err;
-        req.flash("success", "Artticle Update");
-        res.redirect('/');
-    })
-});
-app.delete('/article/delete/:id',(req,res)=>{
-    let query={_id:req.params.id};
-    Article.deleteOne(query,(err)=>{
-        if(err) throw err;
-    });
-    res.send('success');
-});
+let articles=require('./routes/articles');
+app.use('/articles',articles);
 app.listen(5000,()=>{
     console.log('服务启动');
 });

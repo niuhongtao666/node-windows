@@ -3,7 +3,7 @@ $(function(){
         console.log($(this).data('id'));
         $.ajax({
             type:'DELETE',
-            url:'/article/delete/'+$(this).data('id'),
+            url:'/articles/delete/'+$(this).data('id'),
             success:function(){
                 window.location.href='/';
             },

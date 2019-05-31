@@ -35,7 +35,9 @@ app.get('/',(req,res)=>{
     })
 });
 let articles=require('./routes/articles');
+let users=require('./routes/users');
 app.use('/articles',articles);
+app.use('/users',users);
 app.listen(5000,()=>{
     console.log('服务启动');
 });

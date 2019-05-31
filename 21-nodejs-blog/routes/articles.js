@@ -45,7 +45,7 @@ router.post('/update/:id',(req,res)=>{
         req.flash("success", "Artticle Update");
         res.redirect('/');
     })
-});
+});4
 router.delete('/delete/:id',(req,res)=>{
     let query={_id:req.params.id};
     Article.deleteOne(query,(err)=>{

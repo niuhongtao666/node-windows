@@ -2,6 +2,7 @@ let express=require('express');
 let router=express.Router();
 let User=require('../models/user');
 const { check, validationResult } = require('express-validator/check');
+let bcrypt=require('bcrypt');
 router.get('/register',(req,res)=>{
     res.render('users/register')
 });
@@ -48,11 +49,22 @@ router.post('/register',[
         res.render('users/register',{errors:errorsList,title:'Add article'});
     }else{
         let users=new User(req.body);
-        users.save((err,data)=>{
-            if(err) throw err;
-            req.flash("success", "User Add");
-            res.redirect('/');
-        })
+        // const saltRounds = 10;//说明https://www.jianshu.com/p/2b131bfc2f10
+        bcrypt.genSalt(10, function(err, salt) {
+            bcrypt.hash(users.password, salt, function(err, hash) {
+                // Store hash in your password DB.
+                if(err){
+                    console.error(err);
+                    return;
+                }
+                users.password=hash;
+                users.save((err,data)=>{
+                    if(err) throw err;
+                    req.flash("success", "Register and Login");
+                    res.redirect('/');
+                })
+            });
+        });
     }
-});
+}); 
 module.exports=router;

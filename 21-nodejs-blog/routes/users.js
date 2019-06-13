@@ -67,4 +67,10 @@ router.post('/register',[
         });
     }
 }); 
+router.get('/login',(req,res)=>{
+    res.render('users/login')
+});
+router.post('/login',(req,res)=>{
+    res.render('users/login')
+});
 module.exports=router;

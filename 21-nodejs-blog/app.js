@@ -6,11 +6,16 @@ const bodyParser=require('body-parser');
 const { check, validationResult } = require('express-validator/check');
 let Article=require('./models/article.js');
 const session=require('express-session');
+const passport=require('passport'); 
+const config=require('./config/database');
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','pug');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static(path.join(__dirname,'public')));
-mongoose.connect('mongodb://localhost/nodejs-blog',{useNewUrlParser:true});
+app.use(passport.initialize());
+app.use(passport.session());
+require('./config/passport')(passport);
+mongoose.connect(config.database,{useNewUrlParser:true});
 let db=mongoose.connection;
 db.once('open',function(){
     console.log('Connect to MongoDB');
@@ -19,7 +24,7 @@ db.on('error',function(err){
     if(err) throw err;
 });
 app.use(session({
-    secret:'creazy cat',
+    secret:config.secret,
     resave: false,
     saveUninitialized: true,
 }));

@@ -3,6 +3,7 @@ let router=express.Router();
 let User=require('../models/user');
 const { check, validationResult } = require('express-validator/check');
 let bcrypt=require('bcrypt');
+const passport=require('passport');
 router.get('/register',(req,res)=>{
     res.render('users/register')
 });
@@ -61,7 +62,7 @@ router.post('/register',[
                 users.save((err,data)=>{
                     if(err) throw err;
                     req.flash("success", "Register and Login");
-                    res.redirect('/');
+                    res.redirect('/users/login');
                 })
             });
         });
@@ -70,7 +71,13 @@ router.post('/register',[
 router.get('/login',(req,res)=>{
     res.render('users/login')
 });
-router.post('/login',(req,res)=>{
-    res.render('users/login')
+router.post('/login',(req,res,next)=>{
+    passport.authenticate('local', 
+        {   successRedirect: '/',
+            failureRedirect: '/users/login',
+            failureFlash: true ,
+            successFlash:'Welcome!'
+        }
+    )(req,res,next)
 });
 module.exports=router;

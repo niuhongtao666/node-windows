@@ -9,12 +9,26 @@ const session=require('express-session');
 const passport=require('passport'); 
 const config=require('./config/database');
 app.set('views',path.join(__dirname,'views'));
-app.set('view engine','pug');
+app.set('view engine','pug'); 
+app.use(require('connect-flash')());
+app.use(function (req, res, next) {
+  res.locals.messages = require('express-messages')(req, res);
+  next();
+});
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static(path.join(__dirname,'public')));
+require('./config/passport')(passport);
+app.use(session({
+    secret:config.secret,
+    resave: false,
+    saveUninitialized: true,
+}));
 app.use(passport.initialize());
 app.use(passport.session());
-require('./config/passport')(passport);
+app.get('*',function(req,res,next){
+    res.locals.user=req.user || null;
+    next();
+});
 mongoose.connect(config.database,{useNewUrlParser:true});
 let db=mongoose.connection;
 db.once('open',function(){
@@ -22,16 +36,6 @@ db.once('open',function(){
 });
 db.on('error',function(err){
     if(err) throw err;
-});
-app.use(session({
-    secret:config.secret,
-    resave: false,
-    saveUninitialized: true,
-}));
-app.use(require('connect-flash')());
-app.use(function (req, res, next) {
-  res.locals.messages = require('express-messages')(req, res);
-  next();
 });
 app.get('/',(req,res)=>{
     Article.find({},(err,articles)=>{

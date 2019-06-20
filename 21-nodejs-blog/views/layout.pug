@@ -16,10 +16,13 @@ html(lang="en")
               a.nav-link(href='/')
                 | Home 
                 span.sr-only (current)
-            li.nav-item
-              a.nav-link(href='/articles/new') Add Article
+            if user
+              li.nav-item
+                a.nav-link(href='/articles/new') Add Article
           ul.navbar-nav.navbar-right
             if user
+              li.nav-item  
+                a.nav-link(href='#') 用户名：#{user.name}
               li.nav-item
                 a.nav-link(href='/users/logout') Logout
             else 

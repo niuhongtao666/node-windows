@@ -47,6 +47,9 @@ let articles=require('./routes/articles');
 let users=require('./routes/users');
 app.use('/articles',articles);
 app.use('/users',users);
-app.listen(5000,()=>{
+app.listen(5000,'0.0.0.0',()=>{
     console.log('服务启动');
 });
+// 在同一个局域网下，例如“Wi-Fi”已连接至“WeWork”，其 IP 地址为 10.165.107.101。，如果设置‘0.0.0.0’或者不写，
+//在本地和手机端都可以连接http://10.165.107.101:5000/
+//否则只能在本地电脑连接，在手机上是无法连接http://10.165.107.101:5000/的

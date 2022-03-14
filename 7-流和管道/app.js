@@ -1,6 +1,8 @@
-var fs=require('fs');
-var myReadStream=fs.createReadStream(__dirname+'/readme1.txt');
-var myWriteStream=fs.createWriteStream(__dirname+'/writeme.txt',{'flags':'a'});
+var fs = require("fs");
+var myReadStream = fs.createReadStream(__dirname + "/readme12.txt");
+var myWriteStream = fs.createWriteStream(__dirname + "/writeme.txt", {
+    flags: "a",
+});
 //{'flags':'a'}内容追加
 // myWriteStream.write('谢谢');
 // myWriteStream.end();
@@ -10,12 +12,15 @@ var myWriteStream=fs.createWriteStream(__dirname+'/writeme.txt',{'flags':'a'});
 // myReadStream.pipe(myWriteStream);
 // var data='';
 // myReadStream.setEncoding('utf-8');
-myReadStream.on('data',function(chunk){
+myReadStream.on("data", function(chunk) {
     // console.log('new chunk received');
     console.log(chunk);
     // data+=chunk;
     // myWriteStream.write(chunk);
 });
-myReadStream.on('end',function(){
+myReadStream.on("error", function(err) {
+    console.log("error", err);
+});
+myReadStream.on("end", function() {
     // console.log(data);
 });

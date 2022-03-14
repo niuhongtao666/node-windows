@@ -4,6 +4,8 @@ var bodyParser=require('body-parser');
 var jsonType=bodyParser.json();
 var formType=bodyParser.urlencoded({extended:false});
 var app=express();
+//NodeJS结合express框架使用ejs引擎模板如何修改默认模板文件夹views的路径
+//https://blog.csdn.net/qq_40063745/article/details/112611841
 app.set('view engine','ejs');
 app.get('/form',(req,res)=>{
     // var file=fs.readFileSync(__dirname+'/form.html','utf-8');

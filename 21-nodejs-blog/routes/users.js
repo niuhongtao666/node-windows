@@ -8,6 +8,9 @@ router.get('/register',(req,res)=>{
     res.render('users/register')
 });
 function uniqObjInArray(objarray){
+    //去重
+    // console.log('objarray')
+    // console.log(objarray)
     let len = objarray.length;
     let tempJson = {
         
@@ -43,11 +46,16 @@ router.post('/register',[
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         // return res.status(422).json({ errors: errors.array() });
-        console.log(errors.array());
+        // console.log(errors.array());
         let errorsList=errors.array();
+        // console.log(1)
+        // console.dir(errorsList);
+        // console.log(1)
         errorsList=uniqObjInArray(errorsList);
-        console.dir(errorsList);
-        res.render('users/register',{errors:errorsList,title:'Add article'});
+        // console.dir(2);
+        // console.dir(errorsList);
+        // console.dir(2);
+        res.render('users/register',{errors:errorsList,title:'Add user'});
     }else{
         let users=new User(req.body);
         // const saltRounds = 10;//说明https://www.jianshu.com/p/2b131bfc2f10

@@ -27,6 +27,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.get('*',function(req,res,next){
     res.locals.user=req.user || null;
+    console.dir(res.locals)
     next();
 });
 mongoose.connect(config.database,{useNewUrlParser:true});

@@ -2,7 +2,7 @@ extends ../layout
 
 block content
     h3 #{title}
-    form(method='post',action='/articles/create')
+    form(method='post',action='/articles/create',enctype='multipart/form-data')
         .form-group
             label Title:
             input.form-control(type='text',name='title')
@@ -12,5 +12,8 @@ block content
         .form-group
             label Body:
             textarea.form-control(name='body')
+        .form-group
+            label 图片:
+            input#files(type='file', name='file', multiple='')
         br
         input.btn.btn-primary(type='submit',value='submit')

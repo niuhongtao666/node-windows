@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38d09da8-8208-4151-aef1-23401eb937c5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/18-模板引擎/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/18-模板引擎/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-1-初识中间件/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/19-1-初识中间件/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/models/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/models/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/@types/babel-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/@types/babel-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/@types/babylon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/@types/babylon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/abbrev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/abbrev/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/accepts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/acorn-globals/node_modules/acorn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/acorn-globals/node_modules/acorn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/acorn-globals/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/acorn-globals/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/acorn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/acorn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/align-text/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/align-text/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/aproba/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/aproba/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/are-we-there-yet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/are-we-there-yet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/array-flatten/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/array-flatten/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/asap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/asap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/async/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/babel-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/babel-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/babel-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/babel-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/babylon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/babylon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/balanced-match/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/balanced-match/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bcrypt/lib/binding/bcrypt_lib.node" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bcrypt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bcrypt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/brace-expansion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/brace-expansion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bson/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bson/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/center-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/center-align/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/character-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/character-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/chownr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/chownr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/clean-css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/clean-css/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/cliui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/cliui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/code-point-at/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/code-point-at/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/concat-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/concat-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/connect-flash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/connect-flash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/console-control-strings/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/console-control-strings/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/constantinople/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/constantinople/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/content-disposition/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/content-disposition/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/content-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/content-type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/cookie-signature/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/core-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/core-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/core-util-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/decamelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/decamelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/deep-extend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/deep-extend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/delegates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/delegates/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/depd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/destroy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/destroy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/detect-libc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/detect-libc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/doctypes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/doctypes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ee-first/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ee-first/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/encodeurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/encodeurl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/escape-html/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/escape-html/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/esutils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/esutils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/etag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/etag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-messages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-messages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-session/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-session/node_modules/cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-session/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-session/node_modules/depd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-session/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-session/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express-validator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/finalhandler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/finalhandler/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/forwarded/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/forwarded/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/fresh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/fresh/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/fs-minipass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/fs-minipass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/fs.realpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/fs.realpath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/function-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/function-bind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/gauge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/gauge/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/glob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/has-unicode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/has-unicode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/has/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/has/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/http-errors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ignore-walk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ignore-walk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/inflight/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/inflight/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/inherits/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ini/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ini/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ipaddr.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-expression/node_modules/acorn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-expression/node_modules/acorn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-expression/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-expression/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/is-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/isarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/js-stringify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/js-stringify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/jstransformer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/jstransformer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/kareem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/kareem/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/kind-of/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/kind-of/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/lazy-cache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/lazy-cache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/longest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/longest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/media-typer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/media-typer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/memory-pager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/memory-pager/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/merge-descriptors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/methods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/methods/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mime-db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mime-db/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mime-types/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minimatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minipass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minipass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minizlib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/minizlib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mkdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongodb-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongodb-core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongodb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongoose-legacy-pluralize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongoose-legacy-pluralize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongoose/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongoose/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mpath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mquery/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mquery/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/mquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/needle/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/needle/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/needle/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/needle/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/needle/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/needle/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/negotiator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/negotiator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/node-pre-gyp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/node-pre-gyp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/npm-bundled/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/npm-bundled/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/npm-packlist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/npm-packlist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/npmlog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/npmlog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/number-is-nan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/number-is-nan/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/object-assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/on-finished/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/on-finished/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/on-headers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/on-headers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/once/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/once/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/os-homedir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/os-homedir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/os-tmpdir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/os-tmpdir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/osenv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/osenv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/parseurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/parseurl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/passport-local/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/passport-local/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/passport-strategy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/passport-strategy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/passport/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/passport/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/path-is-absolute/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/path-is-absolute/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/path-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/path-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/path-to-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pause/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pause/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/process-nextick-args/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/process-nextick-args/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/proxy-addr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-attrs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-attrs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-code-gen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-code-gen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-error/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-error/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-filters/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-filters/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-lexer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-lexer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-linker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-linker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-load/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-load/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-strip-comments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-strip-comments/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-walk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug-walk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/pug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/random-bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/random-bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/range-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/range-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/rc/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/rc/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/rc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/rc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/regenerator-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/regenerator-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/regexp-clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/regexp-clone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/repeat-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/repeat-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/require_optional/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/require_optional/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/resolve-from/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/resolve-from/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/resolve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/right-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/right-align/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/rimraf/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/saslprep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/saslprep/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sax/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sax/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/send/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/send/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/send/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/send/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/serve-static/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/serve-static/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/set-blocking/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/set-blocking/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sift/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sift/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/signal-exit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/signal-exit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sliced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sliced/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/source-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sparse-bitfield/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/sparse-bitfield/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/statuses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/string-width/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/string_decoder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/strip-json-comments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/strip-json-comments/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/tar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/tar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/to-fast-properties/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/to-fast-properties/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/toidentifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/toidentifier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/token-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/token-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/type-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/type-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uglify-js/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uglify-js/node_modules/source-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uglify-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uglify-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uglify-to-browserify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uglify-to-browserify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uid-safe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/uid-safe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/unpipe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/unpipe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/util-deprecate/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/utils-merge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/utils-merge/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/validator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/vary/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/vary/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/void-elements/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/void-elements/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/wide-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/wide-align/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/window-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/window-size/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/with/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/with/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/wordwrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/wordwrap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/wrappy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/wrappy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/yallist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/yallist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/routes/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/routes/articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/views/articles/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/views/articles/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-nodejs-blog/views/articles/new.pug" beforeDir="false" afterPath="$PROJECT_DIR$/21-nodejs-blog/views/articles/new.pug" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="23" />
+    <option name="width" value="1407" />
+    <option name="height" value="834" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="node-windows" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38d09da8-8208-4151-aef1-23401eb937c5" name="Default" comment="" />
+      <created>1630483351077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630483351077</updated>
+      <workItem from="1630483353408" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="33" y="23" width="1407" height="834" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+</project>
